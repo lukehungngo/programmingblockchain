@@ -58,6 +58,7 @@ Make sure that chaindata and keystore in the same network directory to unlock ac
 Example of keystore directory
 
 `database=/Users/hungngo/Library/Ethereum/rinkeby/geth/keystore`
+
 All accounts will be stored in keystore file
 ### Configure Truffle in truffle.js
 ```
