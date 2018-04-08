@@ -101,6 +101,11 @@ Saving artifacts...
 ```
 We have deploy successfully a contract to Rinkeby using Truffle! We can go to etherscan and see that our contract is there. The following is the information for the contract aboove https://rinkeby.etherscan.io/address/0xbfbbd01ae2ea4bfc777f6ea3a2ad4843c7a104fb.
 
+# 3. Reference Link:
+
+1. https://medium.com/practical-blockchain/deploying-smart-contract-to-rinkeby-testnet-using-truffle-and-mac-os-x-8fc16ff380e2
+2. https://blog.abuiles.com/blog/2017/07/09/deploying-truffle-contracts-to-rinkeby/
+
 
 
 
