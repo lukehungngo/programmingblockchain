@@ -50,29 +50,36 @@ Example of chaindata directory
 `database=/Users/hungngo/Library/Ethereum/rinkeby/geth/chaindata`
 
 ### Create account in Rinkeby
+
 `$ geth account new`
 #### Notice
 Make sure that chaindata and keystore in the same network directory to unlock account.
+
 Example of keystore directory
+
 `database=/Users/hungngo/Library/Ethereum/rinkeby/geth/keystore`
 All accounts will be stored in keystore file
 ### Configure Truffle in truffle.js
 ```
-module.exports = {
-networks: {
-development: {
-host: "localhost",
-port: 8545,
-network_id: "*" // Match any network id
-},
-rinkeby: {
-host: "localhost", // Connect to geth on the specified
-port: 8545,
-from: "99f6db4428825b2576eb53f7a7d5932eab9c5bd7", // default address to use for any transaction Truffle makes during migrations
-network_id: 4, // Rinkeby network id
-gas: 4612388 // Gas limit used for deploys
-}
-}
+module.exports =
+{
+    networks:
+    {
+        development:
+        {
+            host: "localhost",
+            port: 8545,
+            network_id: "*" // Match any network id
+        },
+        rinkeby:
+        {
+            host: "localhost", // Connect to geth on the specified
+            port: 8545,
+            from: "99f6db4428825b2576eb53f7a7d5932eab9c5bd7", // default address to use for any transaction Truffle makes during migrations
+            network_id: 4, // Rinkeby network id
+            gas: 4612388 // Gas limit used for deploys
+        }
+    }
 };
 ```
 
