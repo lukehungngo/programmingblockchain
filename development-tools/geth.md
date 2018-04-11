@@ -113,6 +113,8 @@ We have deploy successfully a contract to Rinkeby using Truffle! We can go to et
 
 1. https://medium.com/practical-blockchain/deploying-smart-contract-to-rinkeby-testnet-using-truffle-and-mac-os-x-8fc16ff380e2
 2. https://blog.abuiles.com/blog/2017/07/09/deploying-truffle-contracts-to-rinkeby/
+3. https://github.com/ethereum/go-ethereum
+4. https://github.com/ethereum/go-ethereum/wiki/Managing-your-accounts
 
 
 

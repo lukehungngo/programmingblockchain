@@ -94,4 +94,5 @@ web3.eth.accounts.signTransaction(
 
 Use `res.rawTransaction` to get signed transction for broadcasting```. The final result return is transaction hash if success
 # Reference Link
-Link:
+1. https://web3js.readthedocs.io/en/1.0/
+2. https://github.com/ethereum/web3.js/
